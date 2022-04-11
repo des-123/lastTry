@@ -1,11 +1,23 @@
 
-import com.company.Input;
-
+import com.company;
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Scanner;
+import java.io.*;
 
 public class Highscore {
 
 
 
+    
+    
+    
+      int points = 0;
+    File file = new File("test.txt");
+    
+    
+    
 
     // determine the high score
     int highScore = 0;
