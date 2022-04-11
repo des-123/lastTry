@@ -22,18 +22,20 @@ try{
         clip.open(audioInput);
         clip.start();
         clip.loop(Clip.LOOP_CONTINUOUSLY);
+        
+//when you want to pause the sound
+        //JOptionPane.showMessageDialog(null,"press ok to pause");
+       // long clipTimePosition123 = clip.getMicrosecondPosition();
+        //clip.stop();
 
-        JOptionPane.showMessageDialog(null,"press ok to pause");
-        long clipTimePosition123 = clip.getMicrosecondPosition();
-        clip.stop();
-
-
-        JOptionPane.showMessageDialog(null,"press ok to resume");
-        clip.setMicrosecondPosition(clipTimePosition123);
-        clip.start();
+//when you want to resume the sound
+        //JOptionPane.showMessageDialog(null,"press ok to resume");
+        //clip.setMicrosecondPosition(clipTimePosition123);
+        //clip.start();
 
 
 
+        //stop the sound by pressing "ok"
 
         JOptionPane.showMessageDialog(null,"press ok to stop");
 
